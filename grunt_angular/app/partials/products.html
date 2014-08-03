@@ -1,0 +1,7 @@
+<h1>Products</h1>
+
+<ul>
+	<li data-ng-repeat="product in products.items">
+		<a data-ui-sref="site.product({productId:product.id})">{{product.name}}</a>
+	</li>
+</ul>

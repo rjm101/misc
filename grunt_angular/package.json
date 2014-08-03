@@ -30,6 +30,10 @@
     "app/js/router.js",
     "app/js/controllers/mainCtrl.js",
     "app/js/controllers/homeCtrl.js",
+    "app/js/controllers/productsCtrl.js",
+    "app/js/controllers/productDetailCtrl.js",
+    "app/js/services/safeApply.js",
+    "app/js/services/productsService.js",
     "app/js/directives/utilDirectives.js",
     "app/js/directives/testDirectives.js"
   ],

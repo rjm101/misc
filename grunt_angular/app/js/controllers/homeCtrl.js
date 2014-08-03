@@ -1,11 +1,10 @@
-
 /* 
  * Home controller
  */
 angular.module('App.controllers')
 
-.controller('HomeCtrl', function($scope) {
+.controller('HomeCtrl', function() {
 
-	$scope.helloWorld = 'Home: Hello World';
+	this.helloWorld = 'Hello World';
 
 });
