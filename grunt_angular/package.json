@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git@maven-host.razorfishsupport.com:project-name"
+    "url": "git@maven-host.com:project-name"
   },
-  "author": "RZF",
+  "author": "Richard",
   "devDependencies": {
     "grunt": "~0.4.3",
     "grunt-cli": "0.1.11",
