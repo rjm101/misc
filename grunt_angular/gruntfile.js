@@ -157,7 +157,8 @@ module.exports = function(grunt) {
 			},
 			deploy: {
 				options:{
-					style: 'compressed'
+					style: 'compressed',
+					sourcemap: 'none'
 				},
 				files: {
 					'dist/css/styles.css': 'app/sass/compiled.scss'

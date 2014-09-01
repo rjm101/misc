@@ -115,25 +115,18 @@ module.exports = function(grunt) {
 				options:{
 					lineNumbers: true
 				},
-				files: [{
-					expand: true,
-					cwd: 'app/sass',
-					src: ['compiled.scss'],
-					dest: 'dist/css',
-					ext: '.css'
-				}]
+				files: {
+					'/dist/css/styles.css': 'app/sass/compiled.scss'
+				}
 			},
 			deploy: {
 				options:{
-					style: 'compressed'
+					style: 'compressed',
+					sourcemap: 'none'
 				},
-				files: [{
-					expand: true,
-					cwd: 'app/sass',
-					src: ['compiled.scss'],
-					dest: 'dist/css',
-					ext: '.css'
-				}]
+				files: {
+					'/dist/css/styles.css': 'app/sass/compiled.scss'
+				}
 			}
 		},
 
